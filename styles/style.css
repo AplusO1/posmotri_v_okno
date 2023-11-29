@@ -43,7 +43,7 @@ ol {
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
-  padding: 101px 30px 133px 33px;
+  padding: 133px 30px;
 }
 
 .search-form {
@@ -90,7 +90,6 @@ ol {
   display: flex;
   gap: 15px;
   align-items: center;
-  margin-left: 5px;
 }
 
 .search-form__label {
@@ -117,7 +116,7 @@ ol {
 
 /* Подскажите пожалуйста Как сделать скрол полупрозрачным ?
 В макете скрола нет, стили взять неоткуда, а по видео не понятно.
-Подобрал на свой вкус, но точь в точь как на видео не получилось. */
+Подобрал на свой вкус, но точь в точь как на видео,которые добавленны в практикум при задании, не получилось. */
 
 .content__list::-webkit-scrollbar {
   width: 4px;
