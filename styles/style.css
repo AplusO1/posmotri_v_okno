@@ -116,10 +116,9 @@ ol {
 
 .content__list {
   position: relative;
-  width: 399px;
+  width: 403px;
   height: 298px;
   overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .content__list::-webkit-scrollbar {
