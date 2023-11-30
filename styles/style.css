@@ -130,7 +130,7 @@ ol {
 }
 
 .content__details {
-  width: 100%;
+  width: 399px;
   height: 100%;
   padding-top: 30px;
 }
@@ -262,7 +262,7 @@ ol {
 .search-form__checkbox:checked+span {
   background-color: #fff;
   outline: #fff solid 1px;
-  border: 1px solid #545050;
+  border: 1px solid #1b1919;
   cursor: pointer;
 }
 
