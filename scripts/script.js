@@ -9,7 +9,6 @@ const cardsContainer = document.querySelector(".content__list");
 const videoContainer = document.querySelector(".result__video-container");
 const videoElement = document.querySelector(".result__video");
 const form = document.querySelector("form");
-const checkboxes = document.querySelectorAll(".search-form__checkbox");
 
 /* ТЕМПЛЕЙТЫ */
 const cardTmp = document.querySelector(".cards-list-item-template");
@@ -240,19 +239,6 @@ function showError(container, errorTemplate, errorMessage) {
   container.append(node);
   console.log("показал, ошибку");
 }
-
-// Снимаем выделение у всех других checkbox
-checkboxes.forEach((checkbox) => {
-  checkbox.addEventListener("change", function () {
-    if (this.checked) {
-      checkboxes.forEach((otherCheckbox) => {
-        if (otherCheckbox !== this) {
-          otherCheckbox.checked = false;
-        }
-      });
-    }
-  });
-});
 
 // вывожу больше видео, если в пагинации больше страниц, чем показано
 
